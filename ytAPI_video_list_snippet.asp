@@ -24,7 +24,7 @@
 		$.support.cors = true;	
 		$.ajax({             
 			type: "GET",            
-			url: "https://www.googleapis.com/youtube/v3/search?part=snippet&q=%EC%A3%BC%EC%8B%9D%EC%B0%BD%EA%B9%80%EC%A2%85%EC%B2%A0&type=video&key=AIzaSyC1H8HASmlI9PclQvBSNVhZONDAmRgs1lg&order=date",
+			url: "https://www.googleapis.com/youtube/v3/search?part=snippet&q=%EC%A3%BC%EC%8B%9D%EC%B0%BD%EA%B9%80%EC%A2%85%EC%B2%A0&type=video&key=&order=date",	//key는 자신의 YouTube API key값을 넣어야됨.
 			cache: false,
 			crossDomain: true,
 			success: function(data) {
